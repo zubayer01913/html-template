@@ -1,0 +1,144 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Nasir Uddin
+@URL: http://nasiruddin.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below.
+
+  1.  Variables
+  2.  Prefix
+  3.  Shortcode
+  4.  Header
+  5.  Upload Media
+  6.  Ribbon
+  7.  Media - Video Post
+  8.  Advertise
+  9.  Sidebar
+ 10. Footer
+ 11. Filter
+ 12. Auth
+ 13. Profile
+ 14. Single Page
+----------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*Prefix Styles*/
+.m0 {
+  margin: 0;
+}
+.p0 {
+  padding: 0;
+}
+body {
+  position: relative;
+  /*Global Font*/
+  /*Floating*/
+  /*Section Fix*/
+}
+body * {
+  position: relative;
+}
+body .fleft {
+  float: left;
+}
+body .fright {
+  float: right;
+}
+body section.row,
+body header.row,
+body footer.row {
+  margin: 0;
+  position: relative;
+}
+/*Ancore*/
+a,
+.btn,
+button {
+  outline: none;
+  color: #fcc711;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+a:before,
+.btn:before,
+button:before,
+a:after,
+.btn:after,
+button:after {
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+a:focus,
+.btn:focus,
+button:focus,
+a:hover,
+.btn:hover,
+button:hover {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+footer {
+  background: #0c112a;
+}
+footer .contact_init {
+  padding: 17px 0;
+  background: #267ae9;
+}
+footer .contact_init li + li {
+  border-left: 1px solid  #3f8df3;
+}
+footer .contact_init li a {
+  color: #fff;
+  line-height: 54px;
+  padding: 0 65px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+  display: block;
+}
+footer .contact_init li a img {
+  display: inline;
+  margin-right: 20px;
+}
+footer .contact_init li a:hover {
+  background: none;
+}
+footer form .input-group .form-control {
+  height: 41px;
+  border-radius: 0;
+  background: #121a3e;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 41px;
+  padding: 0 16px;
+}
+footer form .input-group .input-group-addon {
+  border-radius: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+footer form .input-group .input-group-addon input {
+  background: #121a3e;
+  border: none;
+  padding: 0 16px;
+  text-transform: uppercase;
+  line-height: 41px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+/*----------------------------------------------------------------*/

@@ -1,0 +1,262 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Nasir Uddin
+@URL: http://nasiruddin.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below.
+
+  1.  Variables
+  2.  Prefix
+  3.  Shortcode
+  4.  Header
+  5.  Upload Media
+  6.  Ribbon
+  7.  Media - Video Post
+  8.  Advertise
+  9.  Sidebar
+ 10. Footer
+ 11. Filter
+ 12. Auth
+ 13. Profile
+ 14. Single Page
+----------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+/*Prefix Styles*/
+.m0 {
+  margin: 0;
+}
+.p0 {
+  padding: 0;
+}
+body {
+  position: relative;
+  /*Global Font*/
+  /*Floating*/
+  /*Section Fix*/
+}
+body * {
+  position: relative;
+}
+body .fleft {
+  float: left;
+}
+body .fright {
+  float: right;
+}
+body section.row,
+body header.row,
+body footer.row {
+  margin: 0;
+  position: relative;
+}
+/*Ancore*/
+a,
+.btn,
+button {
+  outline: none;
+  color: #fcc711;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+a:before,
+.btn:before,
+button:before,
+a:after,
+.btn:after,
+button:after {
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+a:focus,
+.btn:focus,
+button:focus,
+a:hover,
+.btn:hover,
+button:hover {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+/*--------------header--------------------------------------------------*/
+.header{
+background-color:#F5F5F5;
+height:100px;
+}
+.header img{margin-top:20px;
+
+}
+.menu{
+margin-top:40px;
+}
+.menu li{
+list-style:none;float:left
+}
+.menu li a{
+color:black;margin-right:36px; font-size:15px;
+}
+.menu li a:hover{
+color:#1ABB9C;
+
+}
+
+
+/*-----------------------slider-----------------------------------------*/
+.slider{
+
+}
+.slider h3{
+
+}
+.slider p{
+
+}
+
+/*--------------------------service------------------------------------*/
+.service{
+
+}
+.service h4{margin-top:80px;
+text-align:center;
+margin-bottom:35px; 
+
+}
+.service img{margin-top:95px;
+
+}
+.service h5 {
+margin-top:30px;
+
+}
+.service  p{
+
+
+}
+.service_border{
+outline-style:double;
+}
+/*--------------------------------process-------------------------------*/
+.process{background-image: url('../images/back1.jpg'); margin-top:80px; height:400px;
+
+}
+.process h4{margin-top:85px; 
+text-align:center;
+color:#fff;
+
+}
+.process p{margin-top:25px; 
+text-align:center;
+color:#fff;
+
+}
+
+.process_award {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.process_award img{
+	color:white;
+}
+
+.process_award a{
+	border: 1px solid #1ABB9C;
+	padding: 35px;
+	border-radius: 80px;
+}
+
+.process_award a:hover {
+	background-color:#1ABB9C;
+	color:white;
+
+}
+.process_award p{
+margin-top:40px;
+}
+
+/*-------------------Project--------------------------------------------*/
+.project{
+
+}
+.project h4{margin-top:80px; 
+text-align:center;
+
+}
+.project img{margin-top:35px;
+
+}
+.project h5{
+text-align:center; margin-top:25px;
+}
+.project a{
+color:#1ABB9C;
+}
+.project p{
+text-align:center;
+}
+
+/*-------------------------------customer-------------------------------*/
+.customer{ background-image: url('../images/back2.jpg'); height:330px; margin-top:80px;
+
+
+}
+
+.customer h4{margin-top:80px;
+text-align:center;
+color:#fff;
+}
+.customer p{
+margin-top:40px;
+text-align:center;
+color:#fff;
+
+}
+.customer a{
+margin-top:20px;
+color:#1ABB9C;
+
+}
+/*--------------------------journel-------------------------------------*/
+.journel h4{ margin-top:80px; 
+text-align:center;
+
+}
+.journel img{ margin-top:35px;
+
+}
+.journel_box{padding:0px; margin:0px; margin-top:20px;
+border:1px solid black;}
+.journel_box p{font-size:16px; line-height:14px; text-align:center}
+.journel_p{line-height:14px; margin-top:15px;}
+.journel_p a{color:#1ABB9C;}
+/*-----------------------------footer-----------------------------------*/
+.footer {margin-top:80px;
+height: 380px;
+ background-color: #373737;
+}
+.footer h4{
+color: #fff;
+margin-top:60px;
+}
+.footer p{
+margin-top:25px;
+color: #fff;
+}
+.footer_copy{
+height:90px;
+background-color: #333333;
+}
+
+.footer_copy p{
+margin-top:40px;
+color: #fff;
+
+}
+.icon{margin:0px; padding:0px;}
+
+/*----------------------------------------------------------------*/

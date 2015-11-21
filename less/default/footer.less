@@ -1,0 +1,61 @@
+footer{
+    background: #0c112a;
+    .contact_init{
+        padding: 17px 0;
+        background: #267ae9;
+        li{
+            & + li{
+                border-left: 1px solid  #3f8df3;
+            }
+            a{
+                color: #fff;
+                line-height: 54px;
+                padding: 0 65px;
+                text-transform: uppercase;
+                font-family: @baseFont;
+                font-weight: bold;
+                font-size: 21px;
+                text-align: center;
+                display: block;
+                img{
+                    display: inline;
+                    margin-right: 20px;
+                }
+                &:hover{
+                    background: none;
+                }
+            }
+        }
+    }
+    form{
+        .input-group{
+            .form-control{
+                height: 41px;
+                border-radius: 0;
+                background: #121a3e;
+                border: none;
+                font-family: @baseFont2;
+                font-size: 13px;
+                line-height: 41px;
+                padding: 0 16px;
+            }
+            .input-group-addon{
+                border-radius: 0;
+                padding: 0;
+                background: none;
+                border: none;
+                input{
+                    background: #121a3e;
+                    border: none;
+                    padding: 0 16px;
+                    text-transform: uppercase;
+                    line-height: 41px;
+                    color: #fff;
+                    font-family: @baseFont2;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
